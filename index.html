@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width-device-width,initial scale=1.0" />
+    <title>twitter clone</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <i class="fab fa-twitter"></i>
+        <div class="sidebarOption active">
+            <span class="material-icons">
+                home
+            </span>
+            <h3>Home</h3>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons">
+                search
+            </span>
+            <h3>Explore</h3>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons">
+                notifications_none
+            </span>
+            <h3>Notifications</h3>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons">
+                mail_outline
+            </span>
+            <h3>Messages</h3>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons">
+                bookmarks
+            </span>
+            <h3>Bookmarks</h3>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons">
+                ballot
+            </span>
+            <h3>lists</h3>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons">
+                person_outline
+            </span>
+            <h3>profile</h3>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons">
+                more_horiz
+            </span>
+            <h3>More</h3>
+        </div>
+        <button class="sidebar__tweet">tweet</button>
+
+    </div>
+    <div class="feed">
+        <div class="feed__header">
+            <h2>Home</h2>
+        </div>
+        <div class="tweetBox">
+            <form>
+                <div class="tweetbox__input">
+                    <img src="http://i.pinimg.com/orignals/a6/58/32/a65832155622ac173337874f02b218fb.png" alt="" />
+                    <input type="text" placeholder="what is happening?" />
+                </div>
+                <button class="tweetBox__tweetButton">Tweet</button>
+            </form>
+
+            <div class="post">
+                <div class="post__avatar">
+                    <img src="">
+                </div>
+                <div class="post__body">
+                    <div class="post__header">
+                        <div class="post__headrerText">
+                            <h3>
+                                Mehak Rajpal
+                                <span class="post__headerSpecial">
+                                    <span class="material-icons post__badge">
+                                        verified
+                                    </span>@mehakrajpal207
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="post__headerDescription">
+                            <p>Lorem ipsum dolor sit bla bla bla</p>
+                        </div>
+                    </div>
+                    <img src="http://www.focus2move.com/wp-content/uploads/2020/01/tesla-Roadster-202-1024-03.jpg"
+                        alt="">
+                    <div class="post__footer">
+                        <span class="material-icons">
+                            repeat
+                        </span>
+                        <span class="material-icons">
+                            favorite_border
+                        </span>
+                        <span class="material-icons">
+                            publish
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="post"></div>
+        </div>
+        
+    </div>
+    <div class="widgets">
+            <div class="widgets__input">
+                <span class="material-icons widgets__searchIcons">
+                    search
+                    </span>
+                    <input type="text" placeholder="search twitter">
+            </div>
+            <div class="widgets__widgetContainer">
+                <h2>whats happening?</h2>
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the Interior (@Interior) <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+</body>
+<script src="index.js"></script>
+
+</html>
